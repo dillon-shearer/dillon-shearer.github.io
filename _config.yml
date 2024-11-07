@@ -1,6 +1,7 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: "Dillon Shearer"
+description: "Data Analyst || Scientist"
+url: "https://dillon-shearer.github.io"
+social_links:
+  - https://www.linkedin.com/in/dillonshearer/
+  - https://github.com/dillon-shearer
 theme: jekyll-theme-minimal
