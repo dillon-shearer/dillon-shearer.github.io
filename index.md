@@ -1,123 +1,50 @@
 ---
 layout: default
+title: Home
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Hi, I'm Dillon Shearer
 
-[Link to another page](./another-page.html).
+Welcome to my portfolio! I'm a [Data Analyst/Scientist], passionate about [healthcare technology].
 
-There should be whitespace between paragraphs.
+## Projects
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+- [2022 SAIPE Estimates Analysis](https://github.com/dillon-shearer/portfolio/tree/main/census_Poverty)  
+  
+  Objective: Analyze and visualize Small Area Income and Poverty Estimates (SAIPE).
+  
+  Tools Used: Python, Pandas, Matplotlib, Seaborn
+  
+  Methodology: Data cleaning, exploratory data analysis, and geospatial analysis.
+  
+  ### **Key Findings**:
+  #### **National Analysis**
+  Poverty Rate: The national poverty rate in 2022 was 12.6%, affecting 40,951,625 individuals.
+  Child Poverty Rate: Significantly higher at 16.3%, impacting 11,582,950 children.
+  Median Household Income: $74,755, highlighting economic conditions for the typical American household.
+  State Analysis
+  Poverty Percentage: Varies across states, with an average of 12.36%. The lowest is 7.4% and the highest is 19.2%.
+  Median Income Relationship: An inverse relationship between median income and poverty rates. States like MS, LA, WV, and AR have high poverty and low median incomes, while NH, MD, NJ, and HI have low poverty and high incomes.
+  #### **Insights and Actions**
+  1. Targeted Programs: High poverty states may benefit from enhanced federal assistance and job training programs.
+  2. Income Disparity: Areas like DC, with high income and high poverty, need analysis of income disparities and cost of living.
+  3. Economic Development: Initiatives to attract businesses and improve infrastructure can aid low-income states.
+  4. Healthcare and Education: Investments in these areas can improve long-term economic outcomes.
+  5. Customized Policies: Tailor economic policies to state-specific challenges rather than a one-size-fits-all approach.
 
-# Header 1
+- [State-by-State Analysis of Chronic Condition Drug Utilization and Costs](https://github.com/dillon-shearer/portfolio/tree/main/ChronicConditions_PrescriptionDrugs_Project)  
+  
+  Objective: Analyze drug utilization patterns, total costs, and average costs per claim for chronic conditions across the U.S. states.
+  
+  Tools Used: Python, Pandas, SQLite, Matplotlib, Seaborn
+  
+  Methodology: Data integration from CMS and CDC, followed by data cleaning, standardization, and per capita adjustments.
+  
+  ### **Key Findings**:
+  1. High Total Claims: States like California, Texas, and Florida exhibit the highest total claims and costs.
+  2. Cost Efficiency: Smaller states with higher per capita claims indicate significant healthcare burdens relative to population size.
+  3. Policy Implications: Insights suggest targeted healthcare strategies and resource allocation based on both raw and per capita metrics.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Contact
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Feel free to reach out via [email](mailto:dillshearer@outlook.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/dillonshearer/).
